@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Task, Priority, useTaskContext } from '../store/TaskContext';
 import { generateId } from '../utils/taskUtils';
-import { X, Calendar, Clock, Flag, Tag } from 'lucide-react';
+import { X, Calendar, Clock, Flag, Tag, Heart } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
